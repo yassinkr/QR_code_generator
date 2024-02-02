@@ -1,0 +1,35 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+  margin:0px;
+  font-family: 'Outfit', sans-serif;
+}
+
+:root{
+  width: 100%;
+  height:100%;
+  
+}
+
+.QR_app{
+  width: 100%;
+  height: 100vh;
+  background-color: #111729;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .bg_svg{
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    top:20%;
+    left:50%;
+    background-image: url("./assets/bg-illustration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  

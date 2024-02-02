@@ -1,0 +1,58 @@
+.mini_logo{
+    width: 100px;
+    height: 60px;
+    background-image: url("../assets/logo-qr-generator.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+   margin-bottom: 20px;
+
+}
+.nav{
+      width:90%;
+      height: 40px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.QR_sqr{ 
+    background-color: #4e80ee33;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.btns{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.qr{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.img_qr{
+    width: 270px;
+    height: 270px;
+    background-color:#F2F5F9 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+
+}

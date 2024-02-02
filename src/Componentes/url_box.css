@@ -1,0 +1,34 @@
+.logo_url{
+    width: 300px;
+    height: 60px;
+    background-image: url("../assets/logo-qr-generator.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+   margin-bottom: 20px;
+}
+.url_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.url_container{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.url_input{
+    background-color: #111220;
+    width:700px;
+    height: 70px;
+    padding-left: 15px;
+    border: 2px solid #3662E3;
+    border-radius: 16px;
+    color: #4e80ee33;
+    font-size: 16px;
+}
+.btn_container{
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
